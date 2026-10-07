@@ -1,0 +1,8 @@
+{
+  "routes": [
+    { "path": "/", "title": "Home" },
+    { "path": "/analyzer", "title": "Analyzer Workspace" },
+    { "path": "/analysis", "title": "Analysis Results" },
+    { "path": "/how-it-works", "title": "How It Works" }
+  ]
+}

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="SignalCV logo">
+  <rect width="256" height="256" fill="#101C35"/>
+  <path d="M72 44h94l34 34v134H72z" fill="#fff" stroke="#fff" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M166 44v38h34" fill="#C7F36B"/>
+  <path d="M99 169c20-24 34-28 48-10 10 13 22 11 38-12" fill="none" stroke="#101C35" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="99" cy="169" r="9" fill="#C7F36B"/>
+</svg>

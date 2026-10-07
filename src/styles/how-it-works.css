@@ -1,0 +1,26 @@
+.how-page__heading { max-width: 60rem; }
+.how-page__heading h1 { max-width: 12ch; }
+.how-page__actions { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-lg); margin-top: var(--space-xl); }
+.workflow-section { display: grid; gap: var(--space-3xl); }
+.section-intro { max-width: 42rem; }
+.section-intro h2, .how-trust h2, .how-cta h2 { margin: 0 0 var(--space-md); font-family: var(--font-display); font-size: var(--font-size-h2); font-weight: 500; letter-spacing: -0.045em; line-height: 1.05; }
+.section-intro > p:not(.eyebrow), .how-cta > p:not(.eyebrow) { margin: 0; color: var(--color-text-muted); line-height: 1.6; }
+.workflow-list { display: grid; gap: var(--space-lg); margin: 0; padding: 0; list-style: none; }
+.workflow-item { display: grid; grid-template-columns: 4rem minmax(0, 1fr); align-items: start; gap: var(--space-lg); }
+.workflow-item__number { padding-top: var(--space-2xl); color: var(--color-info); font-size: var(--font-size-caption); font-weight: 850; letter-spacing: 0.1em; }
+.workflow-item__card { padding: var(--space-2xl); }
+.workflow-item__card .eyebrow { margin-bottom: var(--space-sm); }
+.workflow-item__card h3 { margin: 0 0 var(--space-sm); font-family: var(--font-display); font-size: clamp(1.45rem, 2vw, 2rem); font-weight: 500; letter-spacing: -0.035em; }
+.workflow-item__card p:last-child { max-width: 48rem; margin: 0; color: var(--color-text-muted); line-height: 1.6; }
+.how-trust { display: grid; gap: var(--space-2xl); margin-top: var(--section-space); padding: clamp(1.5rem, 5vw, 3rem); border-radius: var(--radius-lg); background: var(--color-primary); color: var(--color-primary-contrast); }
+.how-trust .eyebrow { color: var(--color-accent); }
+.how-trust h2 { max-width: 14ch; }
+.how-trust__copy { max-width: 44rem; color: #d9e5ef; line-height: 1.65; }
+.how-trust__copy p { margin: 0 0 var(--space-md); }
+.how-trust__copy p:last-child { margin-bottom: 0; }
+.how-trust__copy strong { color: var(--color-accent); }
+.how-cta { display: grid; justify-items: start; gap: var(--space-md); max-width: 52rem; margin-top: var(--section-space); padding-block: var(--space-xl); }
+.how-cta h2 { margin-bottom: 0; }
+.how-cta .button { margin-top: var(--space-sm); }
+@media (min-width: 64rem) { .how-trust { grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr); align-items: start; } }
+@media (max-width: 30rem) { .how-page__actions { align-items: flex-start; flex-direction: column; gap: var(--space-md); } .workflow-item { grid-template-columns: 2.5rem minmax(0, 1fr); gap: var(--space-sm); } .workflow-item__number { padding-top: var(--space-xl); } .workflow-item__card { padding: var(--space-lg); } }
